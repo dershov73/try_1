@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e2e7ec;
+}
+
+.container {
+    width: 1120px;
+    margin: 0 auto;
+    padding-top: 91px;
+}
+
+.fantastic {
+    width: 740px;
+    height: 540px;
+    float: left;
+    margin: 0 20px 20px 0;
+    background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
+    background: -moz-linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
+    background: -o-linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
+    background: -ms-linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%), url(img/fantastic.jpg);
+}
+
+.fantastic div {
+    color: #ffffff;
+    padding-top: 397px;
+    padding-left: 46px;
+}
+
+.fantastic h3 {
+    font-size: 30px;
+    font-family: "Myriad Pro";
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+    margin-top: 27px;
+    margin-left: 43px;
+    width: 433px;
+}
+
+.white_block {
+    background-color: #fff;
+    width: 360px;
+    height: 540px;
+    float: left;
+    margin: 0 20px 20px 0;
+    position: relative;
+}
+
+.container .white_block_first {
+    margin-right: 0;
+}
+
+.content_text {
+    padding: 28px;
+}
+
+.text_block_top {
+    color: #818181;
+    font-family: "Myriad Pro";
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 13px;
+    text-align: left;
+    text-transform: uppercase;
+    height: 13px;
+    margin-bottom: 13px;
+}
+
+.content_text h3 {
+    font-family: "Myriad Pro";
+    color: #1d1c1c;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 30px;
+    text-align: left;
+}
+
+.content_text img {
+    margin-top: 39px;
+    position: absolute;
+    bottom: 25px;
+    left: 28px;
+}
